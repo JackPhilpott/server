@@ -1,0 +1,35 @@
+<p> UCL Trivia Quiz Technical Guide</p>
+<p>The UCL Trivia Quiz contains three repositories, ecnompassing one server script and two phonegap apps.</p>
+ 
+<p>* The mobile quiz app is located at : https://github.com/JackPhilpott/quiz</p>
+<p>* The server is found is located at : https://github.com/JackPhilpott/server</p>
+<p>* The question creation app is located at : https://github.com/JackPhilpott/questions</p>
+
+
+<p> Server</p>
+<p>The httpServer.js file must be running in order for each app to use their full fucntionality:</p>
+
+<p> *'git clone https://github.com/JackPhilpott/server.git' allows a user to download the repository to their local files</p>
+<p>* In local files navigate to repository using 'cd server'</p>
+<p>* In order to rude the httpServer.js file, insert 'node httpServer.js &'</p>
+
+<p>When the server connection has been established, the user can then connect to either of the phonegap apps.</p>
+
+<p> Create the Question Map</p>
+
+<p>* Use 'git clone https://github.com/JackPhilpott/questions.git' to download the repository.</p>
+<p>* To get to the questions repository, insert 'cd questions/ucesjlp'</p>
+<p>* Run quiz app using phonegap serve</p>
+
+<p> Use the Quiz App </p>
+
+<p>* Use 'git clone https://github.com/JackPhilpott/quiz.git' to download the repository. </p>
+<p>* To get to the questions repository, insert 'cd quiz/ucesjlp'</p>
+<p>* Run quiz app using phonegap serve</p>
+
+<p> Troubleshooting </p>
+
+<p>* Currently neither of the apps are compatible with windows or apple phones .</p>
+<p>* Depedent on the age of model of android phone in use, bugs may be experienced. This is particularly noted in older generations.</p>
+<p>* Both the quiz app and question map are designed to be fully optimised functionally in their respective designed views. i.e. the quiz mobile app provides the best user experience when ran on a phone, however when viewed on a web page it reduces in user experience and functionality. Same is applied to the webpage app respectively. </p>
+
